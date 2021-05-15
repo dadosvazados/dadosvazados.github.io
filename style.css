@@ -1,7 +1,7 @@
 /* Style Settings */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 :root {
-    --bgColor:#1C1C1C;
+    --bgColor:#0e1111;
     --accentColor: #E6E6E6;
     --font: 'Ubuntu', sans-serif;
 }
@@ -54,3 +54,12 @@ body{
     background-color: var(--bgColor);
     color: var(--accentColor);
 }
+
+#outer {
+    width: 100%;
+    text-align: center;
+  }
+  
+  #inner {
+    display: inline-block;
+  }
